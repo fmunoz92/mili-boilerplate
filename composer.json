@@ -1,0 +1,16 @@
+{
+    "require": {
+        "fmunoz92/mili": "*"
+    },
+    "minimum-stability":"dev",
+    "prefer-stable": true,
+	"autoload": {
+		"classmap": [
+			"app/controllers",
+			"app/models",
+			"app/repositories",
+			"app/helpers",
+			"app/config"
+		]
+	}  
+}
