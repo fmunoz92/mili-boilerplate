@@ -10,7 +10,7 @@ Configure db:
 
 create an empty database: for example "mili"
 
-rename app/config/configexample.php to app/config/config.php and edit with the correct values
+rename app/config/example.config.php to app/config/config.php and edit with the correct values
 ```php
 $config->set('dbname', 'mili');
 $config->set('dbuser', 'root');
