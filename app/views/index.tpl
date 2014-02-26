@@ -4,5 +4,5 @@
 {/block}
 
 {block name="body"}
-Hello word!
+Hello world!
 {/block}
