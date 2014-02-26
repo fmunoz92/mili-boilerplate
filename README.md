@@ -20,6 +20,17 @@ then run
 ```bash
 $ composer install
 $ composer dump-autoload
-$ php vendor/bin/doctrine orm:schema-tool:update --force
 ```
+
+
 finally run your browser in [http://localhost/mili-boilerplate](http://localhost/mili-boilerplate)
+
+if you have Smarty errors set the permissions on app/views.
+
+if you create some models run
+
+```bash
+$ composer dump-autoload
+$ php vendor/bin/doctrine orm:schema-tool:update --force
+
+```
